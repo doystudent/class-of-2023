@@ -3,4 +3,10 @@ title: "Counties"
 format: html
 editor: visual
 ---
+```{r}
+#| echo: false
+#| output: false
+library(tidyverse)
 
+x <- read_rds("data/ec.rds")
+```
